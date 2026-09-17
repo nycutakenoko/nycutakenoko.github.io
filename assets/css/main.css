@@ -24,7 +24,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder { color: #999; font-family: 'Microsoft JhengHei', 'Lato', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; }
  .wrapper { position: relative; right: 0; background: white; -webkit-transition: right 610ms cubic-bezier(0,0.8,0.55,1); -moz-transition: right 610ms cubic-bezier(0,0.8,0.55,1); -ms-transition: right 610ms cubic-bezier(0,0.8,0.55,1); -o-transition: right 610ms cubic-bezier(0,0.8,0.55,1); transition: right 610ms cubic-bezier(0,0.8,0.55,1); }
  .container { width: 100%; max-width: 960px; margin: 0 auto; }
- .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1789587720) no-repeat; background-size: cover; }
+ .wsite-header-section { position: relative; background: url(../img/site/default-bg.jpg?1789587720) no-repeat; background-size: cover; }
  .wsite-header-section:before, .splash-page .header-wrap:before { position: absolute; top: 0; left: 0; z-index: 0; display: block; width: 100%; min-height: 100%; height: inherit; background: rgba(0,0,0,0.2); content: ''; }
  .wsite-section-bg-color:before { display: none; }
  .header-wrap #logo { padding: 10px 0 !important; text-align: center; font-family: 'Microsoft JhengHei', 'Cookie', cursive; font-size: 40px; font-weight: normal; line-height: 1.1; }
@@ -47,7 +47,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .search { float: right; margin-left: 40px; }
  .search .wsite-search + .menu { text-align: left; }
  .search .wsite-search-input { width: 140px; height: auto; padding: 13px 10px !important; background: transparent; color: #3B3B3B; border: none; font-family: 'Microsoft JhengHei', 'Lato', sans-serif; font-size: 1.1em; font-weight: 400; line-height: normal; }
- .search .wsite-search-button { width: 18px; height: 18px; background: url(theme/images/search.svg?1789587720) no-repeat; background-size: 15px; margin: 15px 7px 0 3px; }
+ .search .wsite-search-button { width: 18px; height: 18px; background: url(../img/site/search.svg?1789587720) no-repeat; background-size: 15px; margin: 15px 7px 0 3px; }
  #wsite-header-search-form { border-left: 1px solid rgba(116,116,116,0.15); border-right: 1px solid rgba(116,116,116,0.15); }
  .wsite-social-item, #wsite-com-product-social-sharing a { width: 24px; height: 24px; margin-right: 12px; }
  .wsite-social-item:hover, #wsite-com-product-social-sharing a:hover { color: #ffffff; }
@@ -86,7 +86,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-form-input, .wsite-search-element-input { height: auto; background: none; border: 1px solid #cccccc; border-radius: 0; color: #626262; outline: none; padding: 8px !important; -webkit-appearance: none; font-family: 'Microsoft JhengHei', 'Lato', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 200ms ease-in; -moz-transition: all 200ms ease-in; -ms-transition: all 200ms ease-in; -o-transition: all 200ms ease-in; transition: all 200ms ease-in; }
  .wsite-form-input:hover, .wsite-search-element-input:hover, .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-element-input:focus { border: 1px solid #1e1e1e; }
  .wsite-form-input-container, .wsite-form-radio-container { margin-bottom: 10px; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 8px !important; background: white url(theme/images/select-dropdown.png?1789587720) 97% center no-repeat; color: #626262; border: 1px solid #cccccc; border-radius: 0; font-family: 'Microsoft JhengHei', 'Lato', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 200ms ease-in; -moz-transition: all 200ms ease-in; -ms-transition: all 200ms ease-in; -o-transition: all 200ms ease-in; transition: all 200ms ease-in; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 8px !important; background: white url(../img/site/select-dropdown.png?1789587720) 97% center no-repeat; color: #626262; border: 1px solid #cccccc; border-radius: 0; font-family: 'Microsoft JhengHei', 'Lato', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 200ms ease-in; -moz-transition: all 200ms ease-in; -ms-transition: all 200ms ease-in; -o-transition: all 200ms ease-in; transition: all 200ms ease-in; }
  .form-select:hover, .wsite-form-field select:hover, .wsite-com-product-option-groups select:hover, .form-select:focus, .wsite-form-field select:focus, .wsite-com-product-option-groups select:focus { border: 1px solid #1e1e1e; }
  .formlist, .wsite-editor .formlist { min-height: inherit; }
  .wsite-form-container input:focus, #commentPostDiv .field input:focus, #commentPostDiv .field textarea:focus { outline: none; border: 1px solid #2b2b2b; }
@@ -124,7 +124,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .splash-page input[type="radio"], .splash-page input[type="checkbox"] { background: #9c9c9c; }
  .splash-page .header-wrap { position: relative; background: none; }
  .splash-page .header-wrap:before { position: absolute; }
- .splash-page .splash-wrap { position: relative; z-index: 6; display: table; width: 100%; height: 100vh; background: url(theme/images/default-bg.jpg?1789587720) no-repeat; background-attachment: fixed !important; background-size: cover; box-sizing: border-box; }
+ .splash-page .splash-wrap { position: relative; z-index: 6; display: table; width: 100%; height: 100vh; background: url(../img/site/default-bg.jpg?1789587720) no-repeat; background-attachment: fixed !important; background-size: cover; box-sizing: border-box; }
  .splash-page .nav-wrap { display: table-row; }
  .splash-page .main-wrap { display: table-cell; vertical-align: middle; height: 100%; }
  .splash-page #content-section { padding: 3em 4em; margin: 40px auto; width: 750px; background: rgba(255,255,255,0.85); box-sizing: border-box; }
@@ -171,7 +171,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-com-checkout-section .wsite-form-field input[type="radio"] { display: inline-block; margin: 0 5px 0 0; width: 16px; height: 16px; }
  #wsite-search-query { padding: 10px; height: auto; background: none; color: #3d3d3d; border: 1px solid #cccccc; border-radius: 0; font-family: 'Lato', sans-serif; font-size: 1.4em; font-weight: normal; line-height: normal; -webkit-transition: border 200ms ease-in; -moz-transition: border 200ms ease-in; -ms-transition: border 200ms ease-in; -o-transition: border 200ms ease-in; transition: border 200ms ease-in; }
  #wsite-search-query:focus { outline: none; border: 1px solid #1e1e1e; }
- #wsite-search-submit { border-left: none; background: url(theme/images/search.svg?1789587720) no-repeat; background-size: 18px; top: 16px; right: -7px; }
+ #wsite-search-submit { border-left: none; background: url(../img/site/search.svg?1789587720) no-repeat; background-size: 18px; top: 16px; right: -7px; }
  @media screen and (max-width: 992px) {
  body.wsite-checkout-page, body.wsite-native-mobile-editor { overflow-x: hidden; }
  body.wsite-checkout-page .header-wrap .nav-wrap, body.wsite-native-mobile-editor .header-wrap .nav-wrap { position: absolute !important; }
@@ -242,7 +242,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-section { height: auto !important; }
  #main-wrap { background: #fff; }
  #main-wrap .container { padding: 25px 2em; }
- .wsite-search-button { background: url(theme/images/search.svg?1789587720) no-repeat center center; }
+ .wsite-search-button { background: url(../img/site/search.svg?1789587720) no-repeat center center; }
  #footer-wrap { position: relative; right: 0; -webkit-transition: all 610ms cubic-bezier(0,0.8,0.55,1); -moz-transition: all 610ms cubic-bezier(0,0.8,0.55,1); -ms-transition: all 610ms cubic-bezier(0,0.8,0.55,1); -o-transition: all 610ms cubic-bezier(0,0.8,0.55,1); transition: all 610ms cubic-bezier(0,0.8,0.55,1); }
  #footer-wrap div.paragraph { font-size: 1em; }
  #footer-wrap p { font-size: 1em; }
