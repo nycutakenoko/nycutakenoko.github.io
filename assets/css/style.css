@@ -597,6 +597,27 @@ p { margin: 0 0 var(--space-2); }
 
 .gallery-item:hover img { transform: scale(1.05); }
 
+/* ---------- Poster grid (full posters/flyers, not cropped thumbnails) ---------- */
+
+.poster-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: var(--space-3);
+	max-width: 820px;
+	margin: var(--space-3) auto;
+}
+
+.poster-grid .gallery-item {
+	aspect-ratio: auto;
+	background: none;
+}
+
+.poster-grid .gallery-item img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
 /* ---------- Award grid (photo + winner caption per award) ---------- */
 
 .gallery.award-grid {
@@ -927,6 +948,26 @@ p { margin: 0 0 var(--space-2); }
 	border: 1px solid var(--color-line);
 	padding: var(--space-3);
 }
+
+/* ---------- Flow grid (compact multi-card layout, e.g. debate rounds) ---------- */
+
+.flow-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: var(--space-2);
+	max-width: 900px;
+	margin: 0 auto var(--space-4);
+}
+
+.flow-grid .transport-card h4 { text-align: center; }
+
+.flow-grid .detail-list {
+	margin-bottom: 0;
+	font-size: 0.9rem;
+}
+
+.flow-grid .detail-list dt { font-weight: 500; color: var(--color-ink-soft); }
+.flow-grid .detail-list dd { text-align: right; color: var(--color-accent); font-weight: 600; }
 
 .transport-card ul, .transport-card ol {
 	margin: 0;
