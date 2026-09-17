@@ -2,7 +2,7 @@
 
 國立陽明交通大學日語學習團隊（チームたけのこ）官方網站。靜態網站，Jekyll 產生共用 header/nav/footer，部署於 GitHub Pages。
 
-正式網址：https://nctutakenoko.github.io/
+正式網址：https://nycutakenoko.github.io/
 
 ## 技術棧
 

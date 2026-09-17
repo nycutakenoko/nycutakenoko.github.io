@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nctutakenoko.github.io/sitemap.xml
+Sitemap: https://nycutakenoko.github.io/sitemap.xml
